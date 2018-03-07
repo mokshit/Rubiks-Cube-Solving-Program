@@ -1,4 +1,4 @@
-# Rublks-Cube-Solving-Program
+# Rubiks-Cube-Solving-Program
 
 A C++ program that takes in the colors on each face of rubiks cube as input and gives in output the sequence of moves that, when
 peformed on the cube would give the solved rubiks cube.
