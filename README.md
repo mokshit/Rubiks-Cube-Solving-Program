@@ -13,15 +13,15 @@ And Heres the output on the terminal
 
 Following are the notations for each character of the output sequence
 
-'l'->refers to the  left face rotated clockwise
-'L'->refers to the left face rotated anticlockwise
-'r'->refers to the right face rotated clockwise
-'R'->refers to the right face rotated anticlockwise
-'f'->refers to the front face rotated clockwise
-'F'->refers to the front face rotated anticlockwise
-'b'->refers to the back face rotated clockwise
-'B'->refers to the back face rotated anticlockwise
-'u'->refers to the up faces rotated clockwise
-'U'->refers to the up face rotated anticlockwise
-'d'->refers to the down face rotated clockwise
-'D'->refers to the down face rotated anticlockwise
+'l'->refers to the  left face rotated clockwise</br>
+'L'->refers to the left face rotated anticlockwise</br>
+'r'->refers to the right face rotated clockwise</br>
+'R'->refers to the right face rotated anticlockwise</br>
+'f'->refers to the front face rotated clockwise</br>
+'F'->refers to the front face rotated anticlockwise</br>
+'b'->refers to the back face rotated clockwise</br>
+'B'->refers to the back face rotated anticlockwise</br>
+'u'->refers to the up faces rotated clockwise</br>
+'U'->refers to the up face rotated anticlockwise</br>
+'d'->refers to the down face rotated clockwise</br>
+'D'->refers to the down face rotated anticlockwise</br>
