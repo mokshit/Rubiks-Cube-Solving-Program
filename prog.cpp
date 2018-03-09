@@ -441,7 +441,7 @@ void rotate(char c)
  {
   case 'f':          //rotating front face clockwise
   {
-   for(i=0;i<=2;i++)//clockwise
+   for(i=0;i<=2;i++)
    {
 
     for(j=3;j>=0;j--)
@@ -455,7 +455,7 @@ void rotate(char c)
     }
    }
 
-   for(i=0;i<=1;i++)   //clockwise
+   for(i=0;i<=1;i++)   /
    {
     for(j=3;j>=0;j--)
     {
@@ -473,7 +473,7 @@ void rotate(char c)
 
   case 'F':           //rotating front face anticlockwise
   {
-   for(i=0;i<=2;i++)    //anticlockwise
+   for(i=0;i<=2;i++)   
    {
     for(j=0;j<=3;j++)
     {
@@ -488,7 +488,7 @@ void rotate(char c)
 
    for(i=0;i<=1;i++)
    {
-    for(j=0;j<=3;j++)   //anticlockwise
+    for(j=0;j<=3;j++)  
     {
      if(j==0)
      temp=faces[1]  [clk[j][i][0]]  [clk[j][i][1]];
@@ -505,7 +505,7 @@ void rotate(char c)
 
   case 'u':                  //rotating upper face clockwise
   {
-   for(i=0;i<=2;i++)//clockwise
+   for(i=0;i<=2;i++)
    {
 
     for(j=3;j>=0;j--)
@@ -519,7 +519,7 @@ void rotate(char c)
     }
    }
 
-   for(i=0;i<=1;i++)   //clockwise
+   for(i=0;i<=1;i++)   
    {
     for(j=3;j>=0;j--)
     {
@@ -537,7 +537,7 @@ void rotate(char c)
 
   case 'U':           //rotating upper face anticlockwise
   {
-   for(i=0;i<=2;i++)    //anticlockwise
+   for(i=0;i<=2;i++)   
    {
     for(j=0;j<=3;j++)
     {
@@ -552,7 +552,7 @@ void rotate(char c)
 
    for(i=0;i<=1;i++)
    {
-    for(j=0;j<=3;j++)   //anticlockwise
+    for(j=0;j<=3;j++)   
     {
      if(j==0)
      temp=faces[0]  [clk[j][i][0]]  [clk[j][i][1]];
@@ -569,7 +569,7 @@ void rotate(char c)
 
   case 'r':                  //rotating right face clockwise
   {
-   for(i=0;i<=2;i++)//clockwise
+   for(i=0;i<=2;i++)
    {
 
     for(j=3;j>=0;j--)
@@ -583,7 +583,7 @@ void rotate(char c)
     }
    }
 
-   for(i=0;i<=1;i++)   //clockwise
+   for(i=0;i<=1;i++)   
    {
     for(j=3;j>=0;j--)
     {
@@ -601,7 +601,7 @@ void rotate(char c)
 
   case 'R':           //rotating right face anticlockwise
   {
-   for(i=0;i<=2;i++)    //anticlockwise
+   for(i=0;i<=2;i++)   
    {
     for(j=0;j<=3;j++)
     {
@@ -616,7 +616,7 @@ void rotate(char c)
 
    for(i=0;i<=1;i++)
    {
-    for(j=0;j<=3;j++)   //anticlockwise
+    for(j=0;j<=3;j++)   
     {
      if(j==0)
      temp=faces[2]  [clk[j][i][0]]  [clk[j][i][1]];
@@ -633,7 +633,7 @@ void rotate(char c)
 
   case 'b':              //rotating back face clockwise
   {
-   for(i=0;i<=2;i++)//clockwise
+   for(i=0;i<=2;i++)
    {
 
     for(j=3;j>=0;j--)
@@ -649,7 +649,7 @@ void rotate(char c)
 
    for(i=0;i<=1;i++)
    {
-    for(j=0;j<=3;j++)   //anticlockwise
+    for(j=0;j<=3;j++)   
     {
      if(j==0)
      temp=faces[4]  [clk[j][i][0]]  [clk[j][i][1]];
@@ -666,7 +666,7 @@ void rotate(char c)
 
   case 'B':          //rotating back face anticlockwise
   {
-   for(i=0;i<=2;i++)    //anticlockwise
+   for(i=0;i<=2;i++)   
    {
     for(j=0;j<=3;j++)
     {
@@ -679,7 +679,7 @@ void rotate(char c)
     }
    }
 
-   for(i=0;i<=1;i++)   //clockwise
+   for(i=0;i<=1;i++)  
    {
     for(j=3;j>=0;j--)
     {
@@ -695,9 +695,9 @@ void rotate(char c)
    break;
   }
 
-  case 'l':              //rotating back face clockwise
+  case 'l':              //rotating left face clockwise
   {
-   for(i=0;i<=2;i++)//clockwise
+   for(i=0;i<=2;i++)
    {
 
     for(j=3;j>=0;j--)
@@ -713,7 +713,7 @@ void rotate(char c)
 
    for(i=0;i<=1;i++)
    {
-    for(j=0;j<=3;j++)   //anticlockwise
+    for(j=0;j<=3;j++)  
     {
      if(j==0)
      temp=faces[3]  [clk[j][i][0]]  [clk[j][i][1]];
@@ -727,9 +727,9 @@ void rotate(char c)
    break;
   }
 
-  case 'L':          //rotating back face anticlockwise
+  case 'L':          //rotating left face anticlockwise
   {
-   for(i=0;i<=2;i++)    //anticlockwise
+   for(i=0;i<=2;i++)    
    {
     for(j=0;j<=3;j++)
     {
@@ -742,7 +742,7 @@ void rotate(char c)
     }
    }
 
-   for(i=0;i<=1;i++)   //clockwise
+   for(i=0;i<=1;i++)  
    {
     for(j=3;j>=0;j--)
     {
@@ -758,9 +758,9 @@ void rotate(char c)
    break;
   }
 
-  case 'd':              //rotating back face clockwise
+  case 'd':              //rotating down face clockwise
   {
-   for(i=0;i<=2;i++)//clockwise
+   for(i=0;i<=2;i++)
    {
 
     for(j=3;j>=0;j--)
@@ -776,7 +776,7 @@ void rotate(char c)
 
    for(i=0;i<=1;i++)
    {
-    for(j=0;j<=3;j++)   //anticlockwise
+    for(j=0;j<=3;j++)  
     {
      if(j==0)
      temp=faces[5]  [clk[j][i][0]]  [clk[j][i][1]];
@@ -790,9 +790,9 @@ void rotate(char c)
    break;
   }
 
-  case 'D':          //rotating back face anticlockwise
+  case 'D':          //rotating down face anticlockwise
   {
-   for(i=0;i<=2;i++)    //anticlockwise
+   for(i=0;i<=2;i++)    
    {
     for(j=0;j<=3;j++)
     {
@@ -805,7 +805,7 @@ void rotate(char c)
     }
    }
 
-   for(i=0;i<=1;i++)   //clockwise
+   for(i=0;i<=1;i++)   
    {
     for(j=3;j>=0;j--)
     {
