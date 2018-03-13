@@ -455,7 +455,7 @@ void rotate(char c)
     }
    }
 
-   for(i=0;i<=1;i++)   /
+   for(i=0;i<=1;i++)   
    {
     for(j=3;j>=0;j--)
     {
